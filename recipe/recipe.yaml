@@ -1,15 +1,15 @@
 schema_version: 1
 
 context:
-  version: "0.2.0"
+  version: "0.2.1"
 
 package:
   name: univii
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/u/univii/univii-${{ version }}.tar.gz
-  sha256: 6b0e22e810c527c8106146ab8a0a9e9728d14488629e7a3f3044a4b3e2bcef68
+  url: https://files.pythonhosted.org/packages/27/1a/7d179264d5bf2d91a1aed09e69f3abca3dc2679ae48b1b5b54b4d882acf6/univii-0.2.1.tar.gz
+  sha256: 65d38e3b71bb5af11ec108fcf53ff8fb9e3fdfec7af119601871dd805ebcbc7f
 
 build:
   number: 0
